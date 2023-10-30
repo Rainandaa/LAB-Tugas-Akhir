@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Background.css">
+    <link rel="stylesheet" href="../CSS/Navbar.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/Logo.css">
+    <link rel="stylesheet" href="../CSS/Content.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/ScrollBar.css">
+    <link rel="stylesheet" href="../CSS/RegisterPage.css">
+    <script src="../JS/ButtonClick.js"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');</style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@600&display=swap');</style>
+</head>
+<body>
+    <div class="Icon">
+        <a href="Homepage.html"><img id="Logo" src="../ASSET/IMAGE/VokemonS_Logo.png"></a>
+    </div>
+    <div class="Navbar">
+        <ul>
+            <li><a href="Homepage.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Home</a></li>
+            <li><a href="News.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">News</a></li>
+            <li><a href="Pokemon.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Pokémon</a></li>
+            <li><a href="Tournament.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Tournament</a></li>
+            <li><a href="Register.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Register</a></li>
+        </ul>
+    </div>
+    <div class="Background">
+        <video autoplay loop muted>
+          <source src="../ASSET/VIDEO/Mudkip_Background.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <audio controls autoplay>
+            <source src="../ASSET/MUSIC/Lacunasa Town_Theme.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+            <audio id="buttonClickSound" src="../ASSET/SOUND_EFFECT/A_Button.mp3" preload="auto"></audio>
+            <audio id="buttonHoverSound" src="../ASSET/SOUND_EFFECT/A_Button.mp3" preload="auto"></audio>
+        </audio>
+    </div>
+    <div class="Content">
+        <div id="RegisterName">
+            Register Page
+        </div>
+    </div>
+    <div class="RegistrationPage">
+        <form id="registration-form" action="#">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error" id="name-error"></div>
+                    </div>
+                    <div class="col">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error" id="email-error"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <div class="error" id="password-error"></div>
+                    </div>
+                    <div class="col">
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                        <div class="error" id="confirm-password-error"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value=""></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <div class="error" id="gender-error"></div>
+            </div>
+            <div class="form-group">
+                <label for="agree">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    I agree to the terms and conditions
+                </label>
+                <div class="error" id="agree-error"></div>
+            </div>
+            <button type="submit" class="submit-button"><a href="Homepage.html">Submit</a></button>        
+        </form>
+        <script src="../JS/RegisterValidation.js"></script>
+    </div>    
+</body>
+<footer>
+    <div class="social-media">
+        <a href="https://www.facebook.com/Pokemon/" target="_blank" class="social-icon facebook"></a>
+        <a href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="social-icon twitter"></a>
+        <a href="https://www.pinterest.com/pokemon/" target="_blank" class="social-icon pinterest"></a>
+        <a href="https://www.youtube.com/pokemon" target="_blank" class="social-icon youtube"></a>
+        <a href="https://www.instagram.com/pokemon/?hl=en" target="_blank" class="social-icon instagram"></a>
+    </div>
+</footer>
+</html>

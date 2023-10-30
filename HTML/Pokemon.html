@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Background.css">
+    <link rel="stylesheet" href="../CSS/Navbar.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/Logo.css">
+    <link rel="stylesheet" href="../CSS/Content.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/ScrollBar.css">
+    <link rel="stylesheet" href="../CSS/Pokedex.css">
+    <script src="../JS/ButtonClick.js"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');</style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@600&display=swap');</style>
+</head>
+<body>
+    <div class="Icon">
+        <a href="Homepage.html"><img id="Logo" src="../ASSET/IMAGE/VokemonS_Logo.png"></a>
+    </div>
+    <div class="Navbar">
+        <ul>
+            <li><a href="Homepage.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Home</a></li>
+            <li><a href="News.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">News</a></li>
+            <li><a href="Pokemon.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Pokémon</a></li>
+            <li><a href="Tournament.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Tournament</a></li>
+            <li><a href="Register.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Register</a></li>
+        </ul>
+    </div>
+    <div class="Background">
+        <video autoplay loop muted>
+          <source src="../ASSET/VIDEO/Pokeball_Background.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <audio controls autoplay>
+            <source src="../ASSET/MUSIC/Aquacorde_Theme.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+            <audio id="buttonClickSound" src="../ASSET/SOUND_EFFECT/A_Button.mp3" preload="auto"></audio>
+            <audio id="buttonHoverSound" src="../ASSET/SOUND_EFFECT/A_Button.mp3" preload="auto"></audio>
+        </audio>
+      </div>
+      <div class="Content">
+        <h1>Pokédex</h1>
+    </div>
+    <div class="Pokedex">
+        <div class="pokedex-cards">
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/001.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Bulbasaur</div>
+                    <div class="pokemon-type">Grass Posion</div>
+                    <div class="pokemon-number">#001</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/002.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Ivysaur</div>
+                    <div class="pokemon-type">Grass Poison</div>
+                    <div class="pokemon-number">#002</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/003.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Venusaur</div>
+                    <div class="pokemon-type">Grass Poison</div>
+                    <div class="pokemon-number">#003</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/004.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Charmender</div>
+                    <div class="pokemon-type">Fire</div>
+                    <div class="pokemon-number">#004</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/005.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Charmeleon</div>
+                    <div class="pokemon-type">Fire</div>
+                    <div class="pokemon-number">#005</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/006.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Charizard</div>
+                    <div class="pokemon-type">Fire Flying</div>
+                    <div class="pokemon-number">#006</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/007.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Squirtle</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#007</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/008.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom water">
+                    <div class="pokemon-name">Wartortle</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#008</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/009.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Blastoise</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#009</div>
+                </div>
+            </div>
+            <div class="pokedex-card bug">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/010.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Caterpie</div>
+                    <div class="pokemon-type">Bug</div>
+                    <div class="pokemon-number">#010</div>
+                </div>
+            </div>
+            <div class="pokedex-card bug">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/011.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Metapod</div>
+                    <div class="pokemon-type">Bug</div>
+                    <div class="pokemon-number">#011</div>
+                </div>
+            </div>
+            <div class="pokedex-card bug">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/012.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Butterfree</div>
+                    <div class="pokemon-type">Bug FLying</div>
+                    <div class="pokemon-number">#012</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/013.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Weedle</div>
+                    <div class="pokemon-type">Bug Poison</div>
+                    <div class="pokemon-number">#013</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/014.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Kakuna</div>
+                    <div class="pokemon-type">Bug Poison</div>
+                    <div class="pokemon-number">#014</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/015.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Beedrill</div>
+                    <div class="pokemon-type">Bug Poison</div>
+                    <div class="pokemon-number">#015</div>
+                </div>
+            </div>
+            <div class="pokedex-card flying">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/016.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Pidgey</div>
+                    <div class="pokemon-type">Normal Flying</div>
+                    <div class="pokemon-number">#016</div>
+                </div>
+            </div>
+            <div class="pokedex-card flying">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/017.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Pidgeotto</div>
+                    <div class="pokemon-type">Normal Flying</div>
+                    <div class="pokemon-number">#017</div>
+                </div>
+            </div>
+            <div class="pokedex-card flying">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/018.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Pidgeot</div>
+                    <div class="pokemon-type">Normal Flying</div>
+                    <div class="pokemon-number">#018</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/019.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Normal</div>
+                    <div class="pokemon-type">Tipe</div>
+                    <div class="pokemon-number">#019</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/020.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Raticate</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#020</div>
+                </div>
+            </div>
+            <div class="pokedex-card flying">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/021.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Spearow</div>
+                    <div class="pokemon-type">Normal Flying</div>
+                    <div class="pokemon-number">#021</div>
+                </div>
+            </div>
+            <div class="pokedex-card flying">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/022.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Fearow</div>
+                    <div class="pokemon-type">Normal Flying</div>
+                    <div class="pokemon-number">#022</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/023.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Ekans</div>
+                    <div class="pokemon-type">Posion</div>
+                    <div class="pokemon-number">#023</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/024.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Arbok</div>
+                    <div class="pokemon-type">Poison</div>
+                    <div class="pokemon-number">#024</div>
+                </div>
+            </div>
+            <div class="pokedex-card electric">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/025.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Pikachu</div>
+                    <div class="pokemon-type">Electric</div>
+                    <div class="pokemon-number">#025</div>
+                </div>
+            </div>
+            <div class="pokedex-card electric">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/026.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Raichu</div>
+                    <div class="pokemon-type">Electric</div>
+                    <div class="pokemon-number">#026</div>
+                </div>
+            </div>
+            <div class="pokedex-card ground">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/027.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Sandshrew</div>
+                    <div class="pokemon-type">Ground</div>
+                    <div class="pokemon-number">#027</div>
+                </div>
+            </div>
+            <div class="pokedex-card ground">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/028.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Sandslash</div>
+                    <div class="pokemon-type">Ground</div>
+                    <div class="pokemon-number">#028</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/029.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Nidoran &#9792;</div>
+                    <div class="pokemon-type">Poison</div>
+                    <div class="pokemon-number">#029</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/030.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Nidorina</div>
+                    <div class="pokemon-type">Poison</div>
+                    <div class="pokemon-number">#030</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/031.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom ground">
+                    <div class="pokemon-name">Nidoqueen</div>
+                    <div class="pokemon-type">Posion Ground</div>
+                    <div class="pokemon-number">#031</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/032.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Nidoran &#9794;</div>
+                    <div class="pokemon-type">Posion</div>
+                    <div class="pokemon-number">#032</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/033.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Nidorino</div>
+                    <div class="pokemon-type">Poison</div>
+                    <div class="pokemon-number">#033</div>
+                </div>
+            </div>
+            <div class="pokedex-card ground">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/034.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Nidoking</div>
+                    <div class="pokemon-type">Poison Ground</div>
+                    <div class="pokemon-number">#034</div>
+                </div>
+            </div>
+            <div class="pokedex-card fairy">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/035.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Clefairy</div>
+                    <div class="pokemon-type">Fairy</div>
+                    <div class="pokemon-number">#035</div>
+                </div>
+            </div>
+            <div class="pokedex-card fairy">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/036.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Clefable</div>
+                    <div class="pokemon-type">Fairy</div>
+                    <div class="pokemon-number">#036</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/037.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Vulpix</div>
+                    <div class="pokemon-type">Fire</div>
+                    <div class="pokemon-number">#037</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/038.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Ninetales</div>
+                    <div class="pokemon-type">Fire</div>
+                    <div class="pokemon-number">#038</div>
+                </div>
+            </div>
+            <div class="pokedex-card fairy">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/039.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Jigglypuff</div>
+                    <div class="pokemon-type">Normal Fairy</div>
+                    <div class="pokemon-number">#039</div>
+                </div>
+            </div>
+            <div class="pokedex-card fairy">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/040.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom fairy">
+                    <div class="pokemon-name">Wigglytuff</div>
+                    <div class="pokemon-type">Normal Fairy</div>
+                    <div class="pokemon-number">#040</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/041.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Zubat</div>
+                    <div class="pokemon-type">Poison Flying</div>
+                    <div class="pokemon-number">#041</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/042.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Golbat</div>
+                    <div class="pokemon-type">Poison Flying</div>
+                    <div class="pokemon-number">#042</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/043.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Oddish</div>
+                    <div class="pokemon-type">Grass Poison</div>
+                    <div class="pokemon-number">#043</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/044.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Gloom</div>
+                    <div class="pokemon-type">Grass Poison</div>
+                    <div class="pokemon-number">#044</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/045.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Vileplume</div>
+                    <div class="pokemon-type">Grass Poison</div>
+                    <div class="pokemon-number">#045</div>
+                </div>
+            </div>
+            <div class="pokedex-card bug">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/046.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Paras</div>
+                    <div class="pokemon-type">Bug Grass</div>
+                    <div class="pokemon-number">#046</div>
+                </div>
+            </div>
+            <div class="pokedex-card bug">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/047.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Parasect</div>
+                    <div class="pokemon-type">Bug Grass</div>
+                    <div class="pokemon-number">#047</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/048.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Venonat</div>
+                    <div class="pokemon-type">Bug Poison</div>
+                    <div class="pokemon-number">#048</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/049.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Venomoth</div>
+                    <div class="pokemon-type">Bug Poison</div>
+                    <div class="pokemon-number">#049</div>
+                </div>
+            </div>
+            <div class="pokedex-card ground">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/050.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Diglett</div>
+                    <div class="pokemon-type">Ground</div>
+                    <div class="pokemon-number">#050</div>
+                </div>
+            </div>
+            <div class="pokedex-card ground">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/051.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Dugtrio</div>
+                    <div class="pokemon-type">Ground</div>
+                    <div class="pokemon-number">#051</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/052.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Meowth</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#052</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/053.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Persian</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#053</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/054.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Psyduck</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#054</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/055.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Golduck</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#055</div>
+                </div>
+            </div>
+            <div class="pokedex-card fighting">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/056.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Mankey</div>
+                    <div class="pokemon-type">Fighting</div>
+                    <div class="pokemon-number">#056</div>
+                </div>
+            </div>
+            <div class="pokedex-card fighting">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/057.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Primeape</div>
+                    <div class="pokemon-type">Fighting</div>
+                    <div class="pokemon-number">#057</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/058.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Growlithe</div>
+                    <div class="pokemon-type">Fire</div>
+                    <div class="pokemon-number">#058</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/059.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Arcanine</div>
+                    <div class="pokemon-type">Fire</div>
+                    <div class="pokemon-number">#059</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/060.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Poliwag</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#060</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/061.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Poliwhirl</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#061</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/062.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Poliwrath</div>
+                    <div class="pokemon-type">Water Fighting</div>
+                    <div class="pokemon-number">#062</div>
+                </div>
+            </div>
+            <div class="pokedex-card psychic">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/063.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Abra</div>
+                    <div class="pokemon-type">Psychic</div>
+                    <div class="pokemon-number">#063</div>
+                </div>
+            </div>
+            <div class="pokedex-card psychic">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/064.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Kadabra</div>
+                    <div class="pokemon-type">Psychic</div>
+                    <div class="pokemon-number">#064</div>
+                </div>
+            </div>
+            <div class="pokedex-card psychic">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/065.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Alakazam</div>
+                    <div class="pokemon-type">Psychic</div>
+                    <div class="pokemon-number">#065</div>
+                </div>
+            </div>
+            <div class="pokedex-card fighting">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/066.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Machop</div>
+                    <div class="pokemon-type">Fighting</div>
+                    <div class="pokemon-number">#066</div>
+                </div>
+            </div>
+            <div class="pokedex-card fighting">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/067.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Machoke</div>
+                    <div class="pokemon-type">Fighting</div>
+                    <div class="pokemon-number">#067</div>
+                </div>
+            </div>
+            <div class="pokedex-card fighting">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/068.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Machamp</div>
+                    <div class="pokemon-type">Fighting</div>
+                    <div class="pokemon-number">#068</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/069.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Bellsprout</div>
+                    <div class="pokemon-type">Grass Posion</div>
+                    <div class="pokemon-number">#069</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/070.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Weepinbell</div>
+                    <div class="pokemon-type">Grass Posion</div>
+                    <div class="pokemon-number">#070</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/071.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Victreebel</div>
+                    <div class="pokemon-type">Grass Poison</div>
+                    <div class="pokemon-number">#071</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/072.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Tentacool</div>
+                    <div class="pokemon-type">Water Poison</div>
+                    <div class="pokemon-number">#072</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/073.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Tentacruel</div>
+                    <div class="pokemon-type">Water Posion</div>
+                    <div class="pokemon-number">#073</div>
+                </div>
+            </div>
+            <div class="pokedex-card rock">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/074.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Geodude</div>
+                    <div class="pokemon-type">Rock Ground</div>
+                    <div class="pokemon-number">#074</div>
+                </div>
+            </div>
+            <div class="pokedex-card rock">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/075.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Graveler</div>
+                    <div class="pokemon-type">Rock Ground</div>
+                    <div class="pokemon-number">#075</div>
+                </div>
+            </div>
+            <div class="pokedex-card rock">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/076.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Golem</div>
+                    <div class="pokemon-type">Rock Ground</div>
+                    <div class="pokemon-number">#076</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/077.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Ponyta</div>
+                    <div class="pokemon-type">Fire</div>
+                    <div class="pokemon-number">#077</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/078.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Rapidash</div>
+                    <div class="pokemon-type">Fire</div>
+                    <div class="pokemon-number">#078</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/079.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Slowpoke</div>
+                    <div class="pokemon-type">Water Psychic</div>
+                    <div class="pokemon-number">#079</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/080.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Slowbro</div>
+                    <div class="pokemon-type">Water Psychic</div>
+                    <div class="pokemon-number">#080</div>
+                </div>
+            </div>
+            <div class="pokedex-card electric">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/081.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Magnemite</div>
+                    <div class="pokemon-type">Electric Steel</div>
+                    <div class="pokemon-number">#081</div>
+                </div>
+            </div>
+            <div class="pokedex-card electric">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/082.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Magneton</div>
+                    <div class="pokemon-type">Electric Steel</div>
+                    <div class="pokemon-number">#082</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/083.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Farfetch'd</div>
+                    <div class="pokemon-type">Normal Flying</div>
+                    <div class="pokemon-number">#083</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/084.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Doduo</div>
+                    <div class="pokemon-type">Normal Flying</div>
+                    <div class="pokemon-number">#084</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/085.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Dodrio</div>
+                    <div class="pokemon-type">Normal Flying</div>
+                    <div class="pokemon-number">#085</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/086.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Seel</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#086</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/087.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Dewgong</div>
+                    <div class="pokemon-type">Water Ice</div>
+                    <div class="pokemon-number">#087</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/088.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Grimer</div>
+                    <div class="pokemon-type">Posion</div>
+                    <div class="pokemon-number">#088</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/089.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Muk</div>
+                    <div class="pokemon-type">Poison</div>
+                    <div class="pokemon-number">#089</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/090.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Shellder</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#090</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/091.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Cloyster</div>
+                    <div class="pokemon-type">Water Ice</div>
+                    <div class="pokemon-number">#091</div>
+                </div>
+            </div>
+            <div class="pokedex-card ghost">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/092.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Gastly</div>
+                    <div class="pokemon-type">Ghost Poison</div>
+                    <div class="pokemon-number">#092</div>
+                </div>
+            </div>
+            <div class="pokedex-card ghost">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/093.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Haunter</div>
+                    <div class="pokemon-type">Ghost Poison</div>
+                    <div class="pokemon-number">#093</div>
+                </div>
+            </div>
+            <div class="pokedex-card ghost">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/094.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Gengar</div>
+                    <div class="pokemon-type">Ghost Poison</div>
+                    <div class="pokemon-number">#094</div>
+                </div>
+            </div>
+            <div class="pokedex-card rock">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/095.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Onix</div>
+                    <div class="pokemon-type">Rock Ground</div>
+                    <div class="pokemon-number">#095</div>
+                </div>
+            </div>
+            <div class="pokedex-card psychic">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/096.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Drowzee</div>
+                    <div class="pokemon-type">Psychic</div>
+                    <div class="pokemon-number">#096</div>
+                </div>
+            </div>
+            <div class="pokedex-card psychic">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/097.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Hypno</div>
+                    <div class="pokemon-type">Psychic</div>
+                    <div class="pokemon-number">#097</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/098.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Krabby</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#098</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/099.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Kingler</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#099</div>
+                </div>
+            </div>
+            <div class="pokedex-card electric">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/100.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Voltorb</div>
+                    <div class="pokemon-type">Electric</div>
+                    <div class="pokemon-number">#100</div>
+                </div>
+            </div>
+            <div class="pokedex-card electric">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/101.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Electrode</div>
+                    <div class="pokemon-type">Electric</div>
+                    <div class="pokemon-number">#101</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/102.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Exeggcute</div>
+                    <div class="pokemon-type">Grass Psychic</div>
+                    <div class="pokemon-number">#102</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/103.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Exeggutor</div>
+                    <div class="pokemon-type">Grass Psychic</div>
+                    <div class="pokemon-number">#103</div>
+                </div>
+            </div>
+            <div class="pokedex-card ground">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/104.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Cubone</div>
+                    <div class="pokemon-type">Ground</div>
+                    <div class="pokemon-number">#104</div>
+                </div>
+            </div>
+            <div class="pokedex-card ground">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/105.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Marowak</div>
+                    <div class="pokemon-type">Ground</div>
+                    <div class="pokemon-number">#105</div>
+                </div>
+            </div>
+            <div class="pokedex-card fighting">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/106.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Hitmonlee</div>
+                    <div class="pokemon-type">Fighting</div>
+                    <div class="pokemon-number">#106</div>
+                </div>
+            </div>
+            <div class="pokedex-card fighting">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/107.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Hitmonchan</div>
+                    <div class="pokemon-type">Fighting</div>
+                    <div class="pokemon-number">#107</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/108.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Lickitung</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#108</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/109.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Koffing</div>
+                    <div class="pokemon-type">Poison</div>
+                    <div class="pokemon-number">#109</div>
+                </div>
+            </div>
+            <div class="pokedex-card poison">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/110.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Weezing</div>
+                    <div class="pokemon-type">Poison</div>
+                    <div class="pokemon-number">#110</div>
+                </div>
+            </div>
+            <div class="pokedex-card ground">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/111.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Rhyhorn</div>
+                    <div class="pokemon-type">Ground Rock</div>
+                    <div class="pokemon-number">#111</div>
+                </div>
+            </div>
+            <div class="pokedex-card ground">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/112.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Rhydon</div>
+                    <div class="pokemon-type">Ground Rock</div>
+                    <div class="pokemon-number">#112</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/113.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Chansey</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#113</div>
+                </div>
+            </div>
+            <div class="pokedex-card grass">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/114.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Tangela</div>
+                    <div class="pokemon-type">Grass</div>
+                    <div class="pokemon-number">#114</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/115.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Kangaskhan</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#115</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/116.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Horsea</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#116</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/117.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Seadra</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#117</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/118.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Goldeen</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#118</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/119.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Seaking</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#119</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/120.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Staryu</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#120</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/121.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Starmie</div>
+                    <div class="pokemon-type">Water Psychic</div>
+                    <div class="pokemon-number">#121</div>
+                </div>
+            </div>
+            <div class="pokedex-card psychic">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/122.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Mr. Mime</div>
+                    <div class="pokemon-type">Psychic Fairy</div>
+                    <div class="pokemon-number">#122</div>
+                </div>
+            </div>
+            <div class="pokedex-card bug">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/123.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Scyther</div>
+                    <div class="pokemon-type">Bug Flying</div>
+                    <div class="pokemon-number">#123</div>
+                </div>
+            </div>
+            <div class="pokedex-card ice">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/124.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Jynx</div>
+                    <div class="pokemon-type">Ice Psychic</div>
+                    <div class="pokemon-number">#124</div>
+                </div>
+            </div>
+            <div class="pokedex-card electric">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/125.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Electabuzz</div>
+                    <div class="pokemon-type">Electric</div>
+                    <div class="pokemon-number">#125</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/126.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Magmar</div>
+                    <div class="pokemon-type">Fire</div>
+                    <div class="pokemon-number">#126</div>
+                </div>
+            </div>
+            <div class="pokedex-card bug">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/127.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Pinsir</div>
+                    <div class="pokemon-type">Bug</div>
+                    <div class="pokemon-number">#127</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/128.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Tauros</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#128</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/129.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Magikarp</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#129</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/130.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Gyarados</div>
+                    <div class="pokemon-type">Water Flying</div>
+                    <div class="pokemon-number">#130</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/131.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Lapras</div>
+                    <div class="pokemon-type">Water Ice</div>
+                    <div class="pokemon-number">#131</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/132.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Ditto</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#132</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/133.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Eevee</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#133</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/134.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Vaporeon</div>
+                    <div class="pokemon-type">Water</div>
+                    <div class="pokemon-number">#134</div>
+                </div>
+            </div>
+            <div class="pokedex-card electric">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/135.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Jolteon</div>
+                    <div class="pokemon-type">Electric</div>
+                    <div class="pokemon-number">#135</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/136.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Flareon</div>
+                    <div class="pokemon-type">Fire</div>
+                    <div class="pokemon-number">#136</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/137.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Porygon</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#137</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/138.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Omanyte</div>
+                    <div class="pokemon-type">Rock Water</div>
+                    <div class="pokemon-number">#138</div>
+                </div>
+            </div>
+            <div class="pokedex-card water">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/139.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Omastar</div>
+                    <div class="pokemon-type">Rock Water</div>
+                    <div class="pokemon-number">#139</div>
+                </div>
+            </div>
+            <div class="pokedex-card rock">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/140.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Kabuto</div>
+                    <div class="pokemon-type">Rock Water</div>
+                    <div class="pokemon-number">#140</div>
+                </div>
+            </div>
+            <div class="pokedex-card rock">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/141.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Kabutops</div>
+                    <div class="pokemon-type">Rock Water</div>
+                    <div class="pokemon-number">#141</div>
+                </div>
+            </div>
+            <div class="pokedex-card rock">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/142.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Aerodactyl</div>
+                    <div class="pokemon-type">Rock Flying</div>
+                    <div class="pokemon-number">#142</div>
+                </div>
+            </div>
+            <div class="pokedex-card normal">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/143.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Snorlax</div>
+                    <div class="pokemon-type">Normal</div>
+                    <div class="pokemon-number">#143</div>
+                </div>
+            </div>
+            <div class="pokedex-card ice">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/144.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Articuno</div>
+                    <div class="pokemon-type">Ice Flying</div>
+                    <div class="pokemon-number">#144</div>
+                </div>
+            </div>
+            <div class="pokedex-card electric">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/145.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Zapdos</div>
+                    <div class="pokemon-type">Electric Flying</div>
+                    <div class="pokemon-number">#145</div>
+                </div>
+            </div>
+            <div class="pokedex-card fire">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/146.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Moltres</div>
+                    <div class="pokemon-type">Fire Flying</div>
+                    <div class="pokemon-number">#146</div>
+                </div>
+            </div>
+            <div class="pokedex-card dragon">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/147.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Dratini</div>
+                    <div class="pokemon-type">Dragon</div>
+                    <div class="pokemon-number">#147</div>
+                </div>
+            </div>
+            <div class="pokedex-card dragon">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/148.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Dragonair</div>
+                    <div class="pokemon-type">Dragon</div>
+                    <div class="pokemon-number">#148</div>
+                </div>
+            </div>
+            <div class="pokedex-card dragon">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/149.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Dragonite</div>
+                    <div class="pokemon-type">Dragon Flying</div>
+                    <div class="pokemon-number">#149</div>
+                </div>
+            </div>
+            <div class="pokedex-card mewtoo">
+                <div class="card-top">
+                    <div class="pokemon-image">
+                        <img src="../ASSET/POKEMON/150.png" alt="Pokemon">
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <div class="pokemon-name">Mewtoo</div>
+                    <div class="pokemon-type">Psychic</div>
+                    <div class="pokemon-number">#150</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="social-media">
+        <a href="https://www.facebook.com/Pokemon/" target="_blank" class="social-icon facebook"></a>
+        <a href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="social-icon twitter"></a>
+        <a href="https://www.pinterest.com/pokemon/" target="_blank" class="social-icon pinterest"></a>
+        <a href="https://www.youtube.com/pokemon" target="_blank" class="social-icon youtube"></a>
+        <a href="https://www.instagram.com/pokemon/?hl=en" target="_blank" class="social-icon instagram"></a>
+    </div>
+</footer>
+</html>

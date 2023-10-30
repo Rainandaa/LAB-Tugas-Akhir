@@ -1,0 +1,41 @@
+.Navbar {
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000093;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    z-index: 1000;
+}
+
+.Navbar ul li {
+    list-style: none;
+    display: inline; 
+    margin: 0 10px; 
+    position: relative;
+}
+  
+.Navbar ul li a {
+    text-decoration: none;
+    color: #FFEA11;
+    text-transform: capitalize;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+} 
+
+.Navbar ul li a:hover {
+    background-color: #CC0000;
+    color: FFEA11;
+}
+
+.Navbar ul li:hover::after {
+    width: 100%;
+}

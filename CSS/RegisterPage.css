@@ -1,0 +1,84 @@
+.RegistrationPage form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+}
+
+.RegistrationPage .form-group {
+    margin: 10px 0;
+}
+
+.RegistrationPage label {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+.RegistrationPage input[type="text"],
+.RegistrationPage input[type="email"],
+.RegistrationPage input[type="password"],
+.RegistrationPage select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.RegistrationPage select {
+    height: 40px;
+}
+
+.RegistrationPage .error {
+    color: red;
+    margin-top: 5px;
+}
+
+.RegistrationPage button.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.RegistrationPage button.submit-button:hover {
+    background-color: #45a049;
+}
+
+.RegistrationPage .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.RegistrationPage .col {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.RegistrationPage .col:last-child {
+    margin-right: 0;
+}
+
+.RegistrationPage input[type="checkbox"] {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.RegistrationPage label input[type="checkbox"] {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

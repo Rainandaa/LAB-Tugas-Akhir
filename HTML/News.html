@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Background.css">
+    <link rel="stylesheet" href="../CSS/Navbar.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/Logo.css">
+    <link rel="stylesheet" href="../CSS/Content.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/ScrollBar.css">
+    <link rel="stylesheet" href="../CSS/News.css">
+    <script src="../JS/ButtonClick.js"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');</style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@600&display=swap');</style>
+</head>
+<body>
+    <div class="Icon">
+        <a href="Homepage.html"><img id="Logo" src="../ASSET/IMAGE/VokemonS_Logo.png"></a>
+    </div>
+    <div class="Navbar">
+        <ul>
+            <li><a href="Homepage.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Home</a></li>
+            <li><a href="News.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">News</a></li>
+            <li><a href="Pokemon.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Pokémon</a></li>
+            <li><a href="Tournament.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Tournament</a></li>
+            <li><a href="Register.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Register</a></li>
+        </ul>
+    </div>
+    <div class="Background">
+        <video autoplay loop muted>
+          <source src="../ASSET/VIDEO/Pokedex_Background.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <audio controls autoplay>
+            <source src="../ASSET/MUSIC/Cianwood City_Theme.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+            <audio id="buttonClickSound" src="../ASSET/SOUND_EFFECT/A_Button.mp3" preload="auto"></audio>
+            <audio id="buttonHoverSound" src="../ASSET/SOUND_EFFECT/A_Button.mp3" preload="auto"></audio>
+        </audio>
+    </div>
+    <div class="Content">
+        Welcome to the News Page   
+    </div>
+    <div class="News">
+        <article class="news-article">
+            <div class="news-image">
+                <img src="../ASSET/IMAGE/Latest_News1.png" alt="News Image 1">
+            </div>
+            <div class="news-content">
+                <h2>The Pokémon TCG Illustration Contest 2024 Is Now Open to Entries</h2>
+                <p>The Pokémon TCG Illustration Contest 2024 is officially underway. Artists from Japan, the United States, the United Kingdom, Canada, Australia, and New Zealand can submit artwork that embodies the theme “Magical Pokémon Moments.” The artwork entry period will continue through January 31, 2024, at 5:59 a.m. PST. <a href="https://www.pokemon.com/us/pokemon-news/the-pokemon-tcg-illustration-contest-2024-is-now-open-to-entries" target="_blank">Read More</a></p>
+            </div>
+        </article>
+        <article class="news-article">
+            <div class="news-image">
+                <img src="../ASSET/IMAGE/Latest_News2.png" alt="News Image 2">
+            </div>
+            <div class="news-content">
+                <h2>Pokémon Scarlet and Pokémon Violet Ranked Battles Season 11</h2>
+                <p>A new Pokémon Scarlet and Pokémon Violet Ranked Battles season has begun! This is a great time to dive into the action to test your Trainer skills in head-to-head battles with players around the world, move up the global leaderboards, and earn helpful in-game rewards. <a href="https://www.pokemon.com/us/pokemon-news/pokemon-scarlet-and-pokemon-violet-ranked-battles-season-11-october-2023" target="_blank">Read More</a></p>
+            </div>
+        </article>
+        <article class="news-article">
+            <div class="news-image">
+                <img src="../ASSET/IMAGE/Latest_News3.jpg" alt="News Image 3">
+            </div>
+            <div class="news-content">
+                <h2>Watch Classic Pokémon: Master Quest Episodes on Pokémon TV</h2>
+                <p>Ash, Pikachu, and their friends have reached the final stretch of their adventure through the Johto region, and you can join them on their travels in Pokémon: Master Quest—coming soon to Pokémon TV. <a href="https://www.pokemon.com/us/pokemon-news/watch-classic-pokemon-master-quest-episodes-on-pokemon-tv" target="_blank">Read More</a></p>
+            </div>
+        </article>
+        <article class="news-article">
+            <div class="news-image">
+                <img src="../ASSET/IMAGE/Latest_News4.png" alt="News Image 4">
+            </div>
+            <div class="news-content">
+                <h2>Watch Detective Pikachu Solve a New Mystery on YouTube</h2>
+                <p>In a new original animated short now available on Pokémon’s official YouTube channel, a mouthwatering mystery’s afoot, and Detective Pikachu is on the case. Tim’s flan has gone missing, and there aren’t many obvious suspects, but that’s not going to stop the world’s greatest Pokémon detective from taking the case. Can Detective Pikachu’s electrifying logic save the day—and Tim’s flan? Inspect YouTube.com/Pokemon to find out. <a href="https://www.pokemon.com/us/pokemon-news/watch-detective-pikachu-solve-a-new-mystery-on-youtube" target="_blank">Read More</a></p>
+            </div>
+        </article>
+        <article class="news-article">
+            <div class="news-image">
+                <img src="../ASSET/IMAGE/Latest_News5.png" alt="News Image 5">
+            </div>
+            <div class="news-content">
+                <h2>Greavard Debuts in Pokémon GO Halloween 2023 Part I</h2>
+                <p>Pokémon GO’s Halloween events are always a gourd time, and Halloween 2023 Part I offers all the thrills, chills, tricks, and treats you’d expect! Through October 26, 2023, at 10:00 a.m. local time, get thoroughly spooked playing to the remix of Lavender Town’s theme, add Greavard and Houndstone to your Pokédex, and enjoy fa-boo-lous raids and research. You’ll be surrounded by Halloween spirit as PokéStops and Gyms sport festive décor. <a href="https://www.pokemon.com/us/pokemon-news/greavard-debuts-in-pokemon-go-halloween-2023-part-i " target="_blank">Read More</a></p>
+            </div>
+        </article>
+    </div>
+</body>
+<footer>
+    <div class="social-media">
+        <a href="https://www.facebook.com/Pokemon/" target="_blank" class="social-icon facebook"></a>
+        <a href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="social-icon twitter"></a>
+        <a href="https://www.pinterest.com/pokemon/" target="_blank" class="social-icon pinterest"></a>
+        <a href="https://www.youtube.com/pokemon" target="_blank" class="social-icon youtube"></a>
+        <a href="https://www.instagram.com/pokemon/?hl=en" target="_blank" class="social-icon instagram"></a>
+    </div>
+</footer>
+</html>

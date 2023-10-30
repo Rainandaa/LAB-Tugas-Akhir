@@ -1,0 +1,20 @@
+.Content{
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    margin-top: 110px;
+    font-size: xx-large;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    min-height: 10vh;
+    padding-bottom: 10px;
+    z-index: -5;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Background.css">
+    <link rel="stylesheet" href="../CSS/Navbar.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/Logo.css">
+    <link rel="stylesheet" href="../CSS/Content.css">
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/ScrollBar.css">
+    <link rel="stylesheet" href="../CSS/Latest News.css">
+    <link rel="stylesheet" href="../CSS/RegisterButton.css">
+    <link rel="stylesheet" href="../CSS/TournamentAds.css">
+    <script src="../JS/ButtonClick.js"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');</style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@600&display=swap');</style>
+</head>
+<body>
+    <div class="Icon">
+        <a href="Homepage.html"><img id="Logo" src="../ASSET/IMAGE/VokemonS_Logo.png"></a>
+    </div>
+    <div class="Navbar">
+        <ul>
+            <li><a href="Homepage.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Home</a></li>
+            <li><a href="News.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">News</a></li>
+            <li><a href="Pokemon.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Pokémon</a></li>
+            <li><a href="Tournament.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Tournament</a></li>
+            <li><a href="Register.html" onclick="playButtonClickSound()" onmouseover="playButtonHoverSound()">Register</a></li>
+        </ul>
+    </div>
+    <div class="Background">
+        <video autoplay loop muted>
+          <source src="../ASSET/VIDEO/Arcanine_Background.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <audio controls autoplay>
+            <source src="../ASSET/MUSIC/Anville_Theme.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+            <audio id="buttonClickSound" src="../ASSET/SOUND_EFFECT/A_Button.mp3" preload="auto"></audio>
+            <audio id="buttonHoverSound" src="../ASSET/SOUND_EFFECT/A_Button.mp3" preload="auto"></audio>
+        </audio>
+    </div>
+    <div class="Content">
+        <h1>Welcome to VokemonS</h1>
+        <div id="Slogan">
+            Be the Best Pokémon Trainer! Register Now and Achieve Your Dreams!
+        </div>
+    </div>
+    <div class="Frame">
+        <a href="Register.html">
+            <div id="RegisterButton">
+                <button>Register</button> 
+            </div>
+        </a>    
+    </div>
+    <div class="news-container">
+        <h2>Latest News</h2>
+        <div id="news-bigbox">
+            <a href="News.html">
+                <img src="../ASSET/IMAGE/Latest_News1.png" alt="Gambar 1">
+            </a>
+        </div>
+        <div id="news-smallbox">
+            <a href="News.html">
+                <img src="../ASSET/IMAGE/Latest_News2.png" alt="Gambar 2">
+            </a>
+            <a href="News.html">
+                <img src="../ASSET/IMAGE/Latest_News3.jpg" alt="Gambar 3">
+            </a>
+        </div>
+    </div>
+    <div class="ProCiruitAds">
+        <div id="TournamentAds">
+            "Join us in the excitement as we invite players to witness the exhilarating battles of the VokemonS Pro Circuit!"
+        </div>
+        <div id="TournamentButton">
+            <a href="Tournament.html">
+                <button>Tournament Circuit</button>
+            </a>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="social-media">
+        <a href="https://www.facebook.com/Pokemon/" target="_blank" class="social-icon facebook"></a>
+        <a href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="social-icon twitter"></a>
+        <a href="https://www.pinterest.com/pokemon/" target="_blank" class="social-icon pinterest"></a>
+        <a href="https://www.youtube.com/pokemon" target="_blank" class="social-icon youtube"></a>
+        <a href="https://www.instagram.com/pokemon/?hl=en" target="_blank" class="social-icon instagram"></a>
+    </div>
+</footer>
+</html>

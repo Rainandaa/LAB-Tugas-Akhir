@@ -1,0 +1,36 @@
+#TournamentAds {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    min-height: 40vh;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px; /* Mengurangi jarak antara teks dan tombol */
+}
+
+#TournamentButton {
+    text-align: center;
+    position: relative;
+    top: -150px; /* Sesuaikan dengan jumlah piksel yang Anda inginkan */
+}
+
+#TournamentButton button {
+    /* background-color: #ff4500; Ganti warna latar belakang sesuai keinginan Anda */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: medium;
+    background: linear-gradient(45deg, #ffaa00, #ff5500);
+}
+
+#TournamentButton button:hover {
+    background: linear-gradient(45deg, #3B4CCA, #2333a8); /* Mengubah gradien latar belakang saat di-hover */
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
